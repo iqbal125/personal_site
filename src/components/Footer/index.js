@@ -13,10 +13,6 @@ const Footer = () => {
             </small>
             <small className={styles.footer_link}>1-111-1111 </small>
             <small className={styles.footer_link}>Example@example.com</small>
-            <div className={styles.legal_section}>
-              <small className={styles.footer_legal}>Terms of Condition </small>
-              <small className={styles.footer_legal}>Privacy Policy</small>
-            </div>
           </div>
           <div className={styles.right_footer}>
             <Link to="/about">
@@ -32,9 +28,6 @@ const Footer = () => {
               <div className={styles.footer_link}>Blog</div>
             </Link>
           </div>
-        </div>
-        <div className={styles.footer_bottom}>
-          <div> Copyright &copy; 2020 Example Inc</div>
         </div>
       </div>
     </footer>
