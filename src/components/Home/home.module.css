@@ -1,11 +1,42 @@
-.container {
+.hero_container {
   display: flex;
+  padding: 3em;
+  justify-content: space-between;
 }
 
 .hero_image {
   width: 25em;
   height: 25em;
+  margin-right: 3em;
 }
 
 .hero_text {
+  margin-top: 3em;
+  margin-left: 3em;
+}
+
+@media (min-width: 960px) {
+  .row1 {
+    display: flex;
+    background-image: url("../../static/illustrations/details.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 15em;
+  }
+}
+
+@media (max-width: 960px) {
+  .row1 {
+    display: flex;
+    background-image: url("../../static/illustrations/details.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 15em;
+  }
+}
+
+.row1_image {
+  width: 25em;
+  height: 25em;
+  margin-left: 3em;
 }
