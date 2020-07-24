@@ -1,12 +1,22 @@
-.layout {
-  display: flex;
-  flex-direction: column;
-}
-
 main {
-  display: flex;
-  justify-content: center;
   min-height: 80vh;
   min-width: 80vh;
-  box-sizing: border-box;
+}
+
+@media (min-width: 960px) {
+  .layout {
+    background-image: url("../../static/illustrations/overlay3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 25em -5em;
+  }
+}
+
+@media (max-width: 960px) {
+  .layout {
+    background-image: url("../../static/illustrations/overlay3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10em -5em;
+  }
 }

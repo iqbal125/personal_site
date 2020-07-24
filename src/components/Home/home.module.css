@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+}
+
+.hero_image {
+  width: 25em;
+  height: 25em;
+}
+
+.hero_text {
+}

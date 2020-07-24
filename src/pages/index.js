@@ -1,10 +1,11 @@
 import React from "react"
 import "./styles/global.css"
 import Layout from "../components/layout"
+import Home from "../components/Home"
 
 const IndexPage = () => (
   <Layout>
-    <h1>Default Page</h1>
+    <Home />
   </Layout>
 )
 

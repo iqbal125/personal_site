@@ -5,7 +5,6 @@
     display: grid;
     grid-template-columns: [left_header] 1fr [mid_header] 1fr [right_header] 1fr;
     padding: 0.5em;
-    background-color: lightcyan;
   }
 
   .right_header {
@@ -94,7 +93,6 @@
     display: flex;
     flex-direction: row;
     padding: 0.5em;
-    background-color: lightcyan;
   }
 
   .right_header {
@@ -152,7 +150,6 @@
     justify-content: center;
     padding-top: 1em;
     cursor: pointer;
-    background-color: lightcyan;
     align-items: center;
   }
 

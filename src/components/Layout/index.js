@@ -3,6 +3,7 @@ import Footer from "../Footer"
 import Header from "../Header"
 import styles from "./layout.module.css"
 import SEO from "../SEO"
+import image1 from "../../static/illustrations/overlay3.svg"
 
 const Layout = ({ props, title, description, children }) => {
   const seoData = {
@@ -12,8 +13,8 @@ const Layout = ({ props, title, description, children }) => {
 
   return (
     <>
-      <SEO seoData={seoData} />
       <div className={styles.layout}>
+        <SEO seoData={seoData} />
         <Header props={{ ...props }} />
         <main>{children}</main>
         <Footer />
