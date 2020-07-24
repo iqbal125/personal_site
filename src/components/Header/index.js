@@ -34,6 +34,15 @@ const Header = ({ props }) => {
 
         <div className={styles.mid_header}>
           {/* Desktop */}
+          <div>Mid Header</div>
+          {/* Mobile */}
+          <div className={styles.mobile_logo}>
+            <Link to="/">Logo</Link>
+          </div>
+        </div>
+
+        <div className={styles.right_header}>
+          {/* Desktop */}
           <div className={styles.desktop_links}>
             <Link
               to="/about"
@@ -64,15 +73,6 @@ const Header = ({ props }) => {
               Blog
             </Link>
           </div>
-          {/* Mobile */}
-          <div className={styles.mobile_logo}>
-            <Link to="/">Logo</Link>
-          </div>
-        </div>
-
-        <div className={styles.right_header}>
-          {/* Desktop */}
-          Right Header
         </div>
         {/* Mobile */}
         <div className={styles.mobile_search}></div>
