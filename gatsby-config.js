@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     defaultTitle: `Gatsby Startup/Hackathon Starter`,
@@ -18,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-source-github-api`,
       options: {
-        token: "",
+        token: process.env.GATSBY_PORTFOLIO_GITHUB_TOKEN,
         variables: {},
         graphQLQuery: `query { 
             viewer {
