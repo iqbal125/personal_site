@@ -15,5 +15,31 @@ module.exports = {
         printRejected: true,
       },
     },
+    {
+      resolve: `gatsby-source-github-api`,
+      options: {
+        token: "",
+        variables: {},
+        graphQLQuery: `query { 
+            viewer {
+            repositories(first: 18, orderBy: { field: STARGAZERS, direction: DESC }) {
+              edges {
+                node {
+                  id
+                  name
+                  url
+                  description
+                  stargazers {
+                    totalCount
+                  }
+                  forkCount
+                }
+              }
+            }
+          }
+        }
+      `,
+      },
+    },
   ],
 }
