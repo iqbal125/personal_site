@@ -5,7 +5,7 @@ import image2 from "../../static/illustrations/undraw_code_review_l1q9.svg"
 
 const Home = () => {
   return (
-    <div>
+    <div className={styles.layout}>
       <div className={styles.hero_container}>
         <h1 className={styles.hero_text}> Main Title</h1>
         <img className={styles.hero_image} src={image1} alt="" />

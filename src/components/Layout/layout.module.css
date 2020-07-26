@@ -4,7 +4,7 @@ main {
 }
 
 @media (min-width: 960px) {
-  .layout {
+  .home_layout {
     background-image: url("../../static/illustrations/overlay3.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -13,7 +13,7 @@ main {
 }
 
 @media (max-width: 960px) {
-  .layout {
+  .home_layout {
     background-image: url("../../static/illustrations/overlay3.svg");
     background-repeat: no-repeat;
     background-size: contain;

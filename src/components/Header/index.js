@@ -45,32 +45,11 @@ const Header = ({ props }) => {
           {/* Desktop */}
           <div className={styles.desktop_links}>
             <Link
-              to="/about"
+              to="/opensource"
               className={styles.header_link}
               activeClassName={styles.header_link_active}
             >
-              About
-            </Link>
-            <Link
-              to="/contact"
-              className={styles.header_link}
-              activeClassName={styles.header_link_active}
-            >
-              Contact
-            </Link>
-            <Link
-              to="/services"
-              className={styles.header_link}
-              activeClassName={styles.header_link_active}
-            >
-              Services
-            </Link>
-            <Link
-              to="/blog"
-              className={styles.header_link}
-              activeClassName={styles.header_link_active}
-            >
-              Blog
+              Open Source
             </Link>
           </div>
         </div>
@@ -82,32 +61,11 @@ const Header = ({ props }) => {
         <>
           <div className={styles.dropdown_home}>
             <Link
-              to="/about"
+              to="/opensource"
               className={styles.header_links_mobile}
               activeClassName={styles.header_link_active}
             >
-              About
-            </Link>
-            <Link
-              to="/contact"
-              className={styles.header_links_mobile}
-              activeClassName={styles.header_link_active}
-            >
-              Contact
-            </Link>
-            <Link
-              to="/services"
-              className={styles.header_links_mobile}
-              activeClassName={styles.header_link_active}
-            >
-              Services
-            </Link>
-            <Link
-              to="/blog"
-              className={styles.header_links_mobile}
-              activeClassName={styles.header_link_active}
-            >
-              Blog
+              opensource
             </Link>
           </div>
         </>
