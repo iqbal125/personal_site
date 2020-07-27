@@ -56,3 +56,8 @@
   text-decoration: underline;
   padding-top: 0.2em;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
