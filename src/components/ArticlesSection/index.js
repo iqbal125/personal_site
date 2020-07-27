@@ -11,6 +11,7 @@ const ArticlesSection = () => (
             <h3>{article.title}</h3>
           </div>
           <small>{article.date}</small>
+
           <p>
             <strong>Google Search Ranking:</strong>
           </p>
