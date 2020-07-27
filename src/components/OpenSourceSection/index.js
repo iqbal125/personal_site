@@ -1,6 +1,7 @@
-import React from "react"
+import React, { useState } from "react"
 import styles from "./opensource.module.css"
 import { useStaticQuery, graphql } from "gatsby"
+import OpenSourceCard from "../OpenSourceCard"
 
 const OpenSourceSection = () => {
   const githubData = useStaticQuery(query)
@@ -18,13 +19,11 @@ const OpenSourceSection = () => {
 
   return (
     <div>
-      {edges.map(({ node }) => (
-        <div className={styles.opensource_card}>
-          <div>{node.name}</div>
-          <div>{node.description}</div>
-        </div>
-      ))}
-      <div></div>
+      <div className={styles.card_row}>
+        {edges.map(({ node }) => (
+          <OpenSourceCard node={node} key={node.id} />
+        ))}
+      </div>
     </div>
   )
 }
