@@ -1,0 +1,23 @@
+.card_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  height: 9em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(128, 118, 118, 0.2);
+  height: 16em;
+  width: 18em;
+  border-bottom: 2em solid blue;
+  border-radius: 2em;
+  margin: 1em;
+  font-size: 1.2em;
+  padding: 1em;
+}
