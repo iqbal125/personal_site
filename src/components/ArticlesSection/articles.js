@@ -38,19 +38,19 @@ const articles = [
   {
     title: "How to Test React Components: the Complete Guide",
     date: "11 JULY 2019",
-    ranking: ` ""`,
+    ranking: `#5 for "React Testing Tutorial"`,
   },
   {
     title:
       "How to convert from React-Redux classes to React Hooks, the easy way",
     date: "15 MAY 2019",
-    ranking: ` ""`,
+    ranking: `#3 for "Convert Redux to React Hooks"`,
   },
   {
     title:
       "How to integrate React Hooks into your project without changing your Redux code",
     date: "22 MARCH 2019",
-    ranking: ` ""`,
+    ranking: `#6 for "Integrate React Hooks into Redux"`,
   },
 ]
 
