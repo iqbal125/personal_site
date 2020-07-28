@@ -58,6 +58,13 @@ const Header = ({ props }) => {
             >
               Articles
             </Link>
+            <Link
+              to="/courses"
+              className={styles.header_link}
+              activeClassName={styles.header_link_active}
+            >
+              Courses
+            </Link>
           </div>
         </div>
         {/* Mobile */}
@@ -80,6 +87,13 @@ const Header = ({ props }) => {
               activeClassName={styles.header_link_active}
             >
               Articles
+            </Link>
+            <Link
+              to="/courses"
+              className={styles.header_link}
+              activeClassName={styles.header_link_active}
+            >
+              Courses
             </Link>
           </div>
         </>
