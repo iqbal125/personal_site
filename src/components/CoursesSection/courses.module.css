@@ -1,0 +1,34 @@
+.card_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(128, 118, 118, 0.2);
+  height: 25em;
+  width: 80%;
+  border-bottom: 2em solid blue;
+  margin: 1em;
+  font-size: 1.2em;
+}
+
+.top_row {
+  display: flex;
+}
+
+.top_row > img {
+  width: 10em;
+  height: 10em;
+}
+
+.header_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}

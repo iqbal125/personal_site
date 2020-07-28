@@ -19,7 +19,6 @@ const OpenSourceCard = ({ node }) => {
     <div className={trunc ? styles.card : styles.card_full}>
       <div className={styles.card_header}>
         <a href={node.url} rel="noopener noreferrer" target="_blank">
-          {" "}
           <h2>{node.name}</h2>
         </a>
       </div>
