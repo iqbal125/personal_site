@@ -5,6 +5,15 @@
   justify-content: center;
 }
 
+.text_section {
+  margin: 1em;
+  padding: 1em;
+}
+
+.text_section > p {
+  font-size: 1.2em;
+}
+
 .header {
   height: 7em;
 }
