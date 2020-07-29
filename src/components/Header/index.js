@@ -65,6 +65,13 @@ const Header = ({ props }) => {
             >
               Courses
             </Link>
+            <Link
+              to="/education"
+              className={styles.header_link}
+              activeClassName={styles.header_link_active}
+            >
+              Education
+            </Link>
           </div>
         </div>
         {/* Mobile */}
@@ -90,10 +97,17 @@ const Header = ({ props }) => {
             </Link>
             <Link
               to="/courses"
-              className={styles.header_link}
+              className={styles.header_links_mobile}
               activeClassName={styles.header_link_active}
             >
               Courses
+            </Link>
+            <Link
+              to="/education"
+              className={styles.header_links_mobile}
+              activeClassName={styles.header_link_active}
+            >
+              Education
             </Link>
           </div>
         </>

@@ -3,7 +3,7 @@
 @media only screen and (min-width: 900px) {
   .header {
     display: grid;
-    grid-template-columns: [left_header] 1fr [mid_header] 1fr [right_header] 1fr;
+    grid-template-columns: [left_header] 1fr [mid_header] 1fr [right_header] 2fr;
     padding: 0.5em;
     margin-bottom: 3em;
   }
