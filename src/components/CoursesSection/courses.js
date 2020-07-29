@@ -4,7 +4,11 @@ import image3 from "../../static/CoursePics/2542078_6708_3.jpg"
 
 const courses = [
   {
-    title: "Fullstack",
+    title: "React Fullstack with node/express, PostgreSQL and AWS",
+    subtitle:
+      "Learn how to setup a React Fullstack app on AWS with a PostgreSQL database",
+    url:
+      "https://www.udemy.com/course/react-fullstack-with-nodeexpress-psql-and-aws/",
     students: 29546,
     technolgies: ["React", "Redux", "Node.js", "AWS", "Postgres"],
     description:
@@ -13,7 +17,9 @@ const courses = [
     img: image3,
   },
   {
-    title: "react-redux",
+    title: "React 2019: React, Redux, React-Router, Hooks and Auth0",
+    subtitle: "Learn the complete React-Redux front end system.",
+    url: "https://www.udemy.com/course/modern-react/",
     students: 35456,
     technolgies: ["React", "Redux", "React-Router", "Auth-0"],
     description: `This was my first course and I wasn’t really sure what to expect when I published it. Luckily it got good feedback from the community and amassed tens of thousands of students. This is a beginner to intermediate course. It covers React and Redux in depth. In dept React Router and Authentication are also covered.`,
@@ -21,7 +27,10 @@ const courses = [
     img: image1,
   },
   {
-    title: "react hooks",
+    title: "React Hooks and Context (with React-Redux migration guide)",
+    subtitle:
+      "Learn the future of React and how to migrate your existing Redux code",
+    url: "https://www.udemy.com/course/react-hooks-with-react-redux-migration/",
     students: 11234,
     technolgies: ["React", "React Hooks", "Context"],
     description: `This was a sort of mini course that functions as a supplement to the main React-Redux course. This course mainly covers the basic usage of the 4 main React hooks. There is also a section on how to transition from using Redux to React hooks.  The second main section builds out a project using the React Hooks. `,

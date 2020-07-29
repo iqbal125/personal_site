@@ -12,29 +12,34 @@ const CoursesSection = () => {
       <div className={styles.card_row}>
         {courses.map(course => (
           <div className={styles.card}>
-            <div className={styles.top_row}>
-              <img src={course.img} alt="" />
-              <div className={styles.header_text}>
-                <h2>{course.title}</h2>
-                <div>
-                  <strong>Students:</strong>
+            <a href={course.url} rel="noopener noreferrer" target="_blank">
+              <div className={styles.top_row}>
+                <img src={course.img} alt="" />
+                <div className={styles.header_text}>
+                  <div className={styles.course_title}>{course.title}</div>
+                  <div className={styles.course_subtitle}>
+                    {course.subtitle}
+                  </div>
+                  <div>
+                    <strong>Students:</strong>
+                  </div>
+                  <div>{course.students}</div>
                 </div>
-                <div>{course.students}</div>
               </div>
-            </div>
-            <div className={styles.course_details}>
-              <p>{course.description}</p>
-              <div>
-                <strong>Topics Covered:</strong>
+              <div className={styles.course_details}>
+                <p>{course.description}</p>
+                <div>
+                  <strong>Topics Covered:</strong>
+                </div>
+                <div>{course.topics}</div>
+                <div>{course.technologies}</div>
               </div>
-              <div>{course.topics}</div>
-              <div>{course.technologies}</div>
-            </div>
-            <div className={styles.tech_row}>
-              {course.technolgies.map(tech => (
-                <div>{tech}</div>
-              ))}
-            </div>
+              <div className={styles.tech_row}>
+                {course.technolgies.map(tech => (
+                  <div>{tech}</div>
+                ))}
+              </div>
+            </a>
           </div>
         ))}
       </div>
