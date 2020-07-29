@@ -5,11 +5,15 @@
   justify-content: center;
 }
 
+.title {
+  text-align: center;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(128, 118, 118, 0.2);
-  height: 25em;
+  height: 100%;
   width: 80%;
   border-bottom: 2em solid blue;
   margin: 1em;
@@ -18,17 +22,37 @@
 
 .top_row {
   display: flex;
+  height: 10em;
+  padding-bottom: 0.5em;
 }
 
 .top_row > img {
   width: 10em;
-  height: 10em;
+  height: 100%;
 }
 
 .header_text {
+  padding: 1em;
+}
+
+.header_text > h2 {
+  padding-bottom: 0.5em;
+}
+
+.course_details {
+  padding: 1em;
+}
+
+.tech_row {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2em;
+  flex-wrap: wrap;
+  padding: 1em 0.5em 3em 0.5em;
+}
+
+.tech_row > div {
+  padding: 0.7em 1.2em 0.7em 1.2em;
+  background-color: aliceblue;
+  margin-left: 1em;
+  margin-top: 1em;
+  border-radius: 2em;
 }

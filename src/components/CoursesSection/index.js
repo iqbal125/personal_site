@@ -5,7 +5,7 @@ import courses from "./courses"
 const CoursesSection = () => {
   return (
     <div>
-      <h2>
+      <h2 className={styles.title}>
         I'm one of the top React + Redux instructors on the internet, having
         over 70,000 students between my 3 courses
       </h2>
@@ -15,14 +15,26 @@ const CoursesSection = () => {
             <div className={styles.top_row}>
               <img src={course.img} alt="" />
               <div className={styles.header_text}>
-                <h3>{course.title}</h3>
-                <h4>Students: </h4>
+                <h2>{course.title}</h2>
+                <div>
+                  <strong>Students:</strong>
+                </div>
                 <div>{course.students}</div>
               </div>
             </div>
-            <div> {course.description}</div>
-            <div> Topics Covered: {course.topics}</div>
-            <div> {course.technologies}</div>
+            <div className={styles.course_details}>
+              <p>{course.description}</p>
+              <div>
+                <strong>Topics Covered:</strong>
+              </div>
+              <div>{course.topics}</div>
+              <div>{course.technologies}</div>
+            </div>
+            <div className={styles.tech_row}>
+              {course.technolgies.map(tech => (
+                <div>{tech}</div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
