@@ -1,0 +1,14 @@
+.icon {
+  height: 5em;
+  width: 5em;
+}
+
+.college_header {
+  display: flex;
+}
+
+.top_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
