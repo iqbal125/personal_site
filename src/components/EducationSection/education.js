@@ -1,5 +1,13 @@
 export const degrees = [
   {
+    degree: "MS Data Analytics",
+    school: "Western Govenors University",
+    description:
+      "Advanced Technical Degree, math and coding heavy program focused around Machine Learning and the math that makes it work.",
+    learned:
+      "SQL, Python, SAS, R. Coded several Machine Learning Models as part of Program. Learned the complex math and statistics behind Artificial Intelligence and Machine Learning",
+  },
+  {
     degree: "BS Business Adminstration",
     school: "San Francisco State University",
     description:
@@ -7,19 +15,12 @@ export const degrees = [
     learned: `consumer behavior, business operations, digital marketing, 
     accounting, web design, business budgeting`,
   },
-  {
-    degree: "MS Data Analytics",
-    school: "Western Govenors University",
-    description: "Advanced Technical Degree, math and coding heavy program",
-    learned:
-      "SQL, Python, SAS, R. Coded several Machine Learning Models as part of Program",
-  },
 ]
 
 export const certs = [
   {
     title: "AWS Certified Solution Architect- Associate",
-    description: "",
+    description: "Validates my ability on AWS",
     img: "",
     url: "",
   },
@@ -46,6 +47,11 @@ export const certs = [
   {
     title: "Udacity Data Analyst Nanodegree",
     description: "Completed 4 data analysis projects as part of degree",
+    img: "",
+  },
+  {
+    title: "SAS Programmer I",
+    description: "Validates Basic Programming skills in SAS",
     img: "",
   },
   {

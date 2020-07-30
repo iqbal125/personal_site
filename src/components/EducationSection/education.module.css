@@ -1,14 +1,70 @@
-.icon {
-  height: 5em;
-  width: 5em;
+@media (min-width: 960px) {
+  .top_row {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+}
+
+@media (max-width: 960px) {
+  .top_row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.icon1 {
+  height: 7em;
+  width: 7em;
+  padding: 1em;
 }
 
 .college_header {
   display: flex;
 }
 
-.top_row {
+.college_header > h2 {
+  margin-top: 1.6em;
+}
+
+.degrees {
+  padding: 1em;
+  padding-bottom: 1.8em;
+}
+
+.degrees > div {
+  padding-top: 0.3em;
+  font-size: 1.2em;
+}
+
+.learned {
+  font-weight: bold;
+  margin-top: 0.7em;
+}
+
+.certs {
+  padding: 1em;
+}
+
+.certs > div:nth-child(1) {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+.cert_header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.icon2 {
+  height: 5em;
+  width: 5em;
+  padding: 1em;
+}
+
+.degree_section {
+  margin-top: -2em;
+}
+
+.cert_section {
+  margin-top: 5em;
 }
