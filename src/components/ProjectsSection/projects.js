@@ -1,1 +1,4 @@
-const projects = [{ title: "", img }]
+const projects = [
+  { title: "", description: "", img: "", testimonial: "" },
+  { title: "", description: "", img: "", testimonial: "" },
+]
