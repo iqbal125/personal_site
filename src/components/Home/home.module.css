@@ -40,3 +40,17 @@
   height: 25em;
   margin-left: 3em;
 }
+
+.skill_image {
+  width: 8em;
+  height: 4em;
+}
+
+.skill_row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  border: black 1px solid;
+  border-radius: 3em;
+  padding: 1em;
+}
