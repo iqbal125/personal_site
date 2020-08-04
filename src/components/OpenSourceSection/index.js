@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import styles from "./opensource.module.css"
 import { useStaticQuery, graphql } from "gatsby"
 import OpenSourceCard from "../OpenSourceCard"
+import { node } from "prop-types"
 
 const OpenSourceSection = () => {
   const githubData = useStaticQuery(query)
@@ -15,12 +16,16 @@ const OpenSourceSection = () => {
   const { repositories } = viewer
   const { edges } = repositories
 
-  console.log(edges)
+  const results = edges.filter(
+    item =>
+      item.node.name !== "alligator-drafts" &&
+      item.node.name !== "alligator-mini"
+  )
 
   return (
     <div>
       <div className={styles.card_row}>
-        {edges.map(({ node }) => (
+        {results.map(({ node }) => (
           <OpenSourceCard node={node} key={node.id} />
         ))}
       </div>
