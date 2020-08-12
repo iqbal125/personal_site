@@ -30,7 +30,10 @@ const Home = () => {
   return (
     <div className={styles.layout}>
       <div className={styles.hero_container}>
-        <h1 className={styles.hero_text}> Main Title</h1>
+        <h1 className={styles.hero_text}>
+          Hi, I'm Moe. I build high performance web apps with modern
+          technologies
+        </h1>
         <img className={styles.hero_image} src={image1} alt="" />
       </div>
       <div ref={intersectTarget} className={styles.skill_row}>
@@ -47,7 +50,21 @@ const Home = () => {
       </div>
       <div className={styles.row1}>
         <img className={styles.row1_image} src={image2} alt="" />
-        <h1>Row 1</h1>
+        <div className={styles.text_section}>
+          <h2 className={styles.text_section_title}>A Little About me</h2>
+          <p>
+            I'm very passionate about technology and teaching coding. I have
+            worked on several startups as part of a web dev agency. I have 3
+            React courses with tens of thousands of students and several
+            tutorials on the first page of Google. I have also contributed to
+            several major open source projects and have created many of my own.
+            Im constantly learning new stuff and have 8 coding certificates for
+            various technologies.
+          </p>
+          <h2 className={styles.text_section_title}>
+            See below for a list of my career highlights
+          </h2>
+        </div>
       </div>
     </div>
   )

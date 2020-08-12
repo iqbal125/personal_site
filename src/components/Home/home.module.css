@@ -1,19 +1,24 @@
+/* Hero section */
+
 .hero_container {
   display: flex;
-  padding: 3em;
+  padding: 3em 1em 3em 1em;
   justify-content: space-between;
 }
 
 .hero_image {
   width: 25em;
   height: 25em;
-  margin-right: 3em;
+  margin-right: 5em;
 }
 
 .hero_text {
-  margin-top: 3em;
-  margin-left: 3em;
+  margin-top: 2em;
+  margin-left: 0.5em;
+  margin-right: 8em;
 }
+
+/* row1 */
 
 @media (min-width: 960px) {
   .row1 {
@@ -21,7 +26,7 @@
     background-image: url("../../static/illustrations/details.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 15em;
+    margin-top: 10em;
   }
 }
 
@@ -31,7 +36,7 @@
     background-image: url("../../static/illustrations/details.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 15em;
+    margin-top: 10em;
   }
 }
 
@@ -41,7 +46,24 @@
   margin-left: 3em;
 }
 
+.text_section {
+  padding: 1em;
+  margin: 1em;
+}
+
+.text_section > p {
+  font-size: 1.3em;
+  font-weight: 500;
+  padding: 0.5em;
+}
+
+.text_section_title {
+  text-align: center;
+  padding: 0.5em;
+}
+
 /* Skills Row */
+
 .no_show_img {
   display: none;
 }
@@ -49,7 +71,7 @@
 .skill_image {
   width: 8em;
   height: 4em;
-  animation: fadeInLeft 1s linear;
+  animation: fadeInLeft 0.7s linear;
 }
 
 .skill_row {
