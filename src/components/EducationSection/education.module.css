@@ -31,6 +31,11 @@
   padding-bottom: 1.8em;
 }
 
+.degrees > h3 {
+  border-bottom: 1px black solid;
+  width: max-content;
+}
+
 .degrees > div {
   padding-top: 0.3em;
   font-size: 1.2em;

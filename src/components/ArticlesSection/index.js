@@ -7,7 +7,7 @@ const ArticlesSection = () => (
     <div className={styles.text_section}>
       <h2>
         My Coding Tutorials have Provided exceptional value to fellow engineers
-        and have consequently reached extremely high Google search rankings
+        and have consequently reached very high Google search rankings
       </h2>
       <p>
         All my tutorials are on the First page of Google for their respective

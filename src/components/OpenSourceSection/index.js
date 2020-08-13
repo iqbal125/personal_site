@@ -30,6 +30,14 @@ const OpenSourceSection = () => {
     <div>
       <div className={styles.stackoverflow}>
         <img src={image2} alt="" />
+        <div className={styles.stack_list}>
+          <div>
+            I have answered a lot of React, Redux, Auth0 and Node questions, and
+            many of them were the correct or top answer.
+          </div>
+          <div>I reached Top 3% overall for May 2019</div>
+          <div>I was Ranked Top 10% overall for 2019</div>
+        </div>
         <div className={styles.stack_title}>
           <a
             href="https://stackoverflow.com/users/7355935/iqbal125"

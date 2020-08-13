@@ -6,7 +6,7 @@ const CoursesSection = () => {
   return (
     <div>
       <h2 className={styles.title}>
-        I'm one of the top React + Redux instructors on the internet, having
+        I'm one of the top React - Redux instructors on the internet, having
         over 70,000 students between my 3 courses
       </h2>
       <div className={styles.card_row}>
