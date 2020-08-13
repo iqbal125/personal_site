@@ -36,16 +36,20 @@ const Home = () => {
         </h1>
         <img className={styles.hero_image} src={image1} alt="" />
       </div>
-      <div ref={intersectTarget} className={styles.skill_row}>
+      <div ref={intersectTarget} className={styles.skill_section}>
         <fieldset>
           <legend className={styles.legend}>Skills</legend>
-          {skills.map(skill => (
-            <img
-              className={isIntersect ? styles.skill_image : styles.no_show_img}
-              src={skill}
-              alt=""
-            />
-          ))}
+          <div className={styles.skill_row}>
+            {skills.map(skill => (
+              <img
+                className={
+                  isIntersect ? styles.skill_image : styles.no_show_img
+                }
+                src={skill}
+                alt=""
+              />
+            ))}
+          </div>
         </fieldset>
       </div>
       <div className={styles.row1}>
@@ -53,19 +57,20 @@ const Home = () => {
         <div className={styles.text_section}>
           <h2 className={styles.text_section_title}>A Little About me</h2>
           <p>
-            I'm very passionate about technology and teaching coding. I have
-            worked on several startups as part of a web dev agency. I have 3
-            React courses with tens of thousands of students and several
-            tutorials on the first page of Google. I have also contributed to
-            several major open source projects and have created many of my own.
-            Im constantly learning new stuff and have 8 coding certificates for
-            various technologies.
+            I'm very passionate about technology and teaching. I have worked on
+            several startups as part of a web dev agency. I have 3 React courses
+            with tens of thousands of students and several tutorials on the
+            first page of Google. I have also contributed to several major open
+            source projects and have created many of my own. I have 8 coding
+            certificates for various technologies. Im constantly learning new
+            stuff and looking for new challenges.
           </p>
           <h2 className={styles.text_section_title}>
-            See below for a list of my career highlights
+            Select A Section below for More details about my Work
           </h2>
         </div>
       </div>
+      <div className={styles.row2}></div>
     </div>
   )
 }
