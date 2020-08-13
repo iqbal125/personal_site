@@ -32,8 +32,8 @@ const OpenSourceSection = () => {
         <img src={image2} alt="" />
         <div className={styles.stack_list}>
           <div>
-            I have answered a lot of React, Redux, Auth0 and Node questions, and
-            many of them were the correct or top answer.
+            I have answered a lot of React, Redux, Auth0 and Node questions on
+            stackoverflow, and many of them were the correct or top answer.
           </div>
           <div>I reached Top 3% overall for May 2019</div>
           <div>I was Ranked Top 10% overall for 2019</div>
@@ -112,6 +112,15 @@ const OpenSourceSection = () => {
               Performance Entry
             </a>
           </div>
+        </div>
+        <div>
+          <a
+            href="https://github.com/iqbal125"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div className={styles.github_title2}>View Github Profile</div>
+          </a>
         </div>
       </div>
       <div className={styles.github2}>
