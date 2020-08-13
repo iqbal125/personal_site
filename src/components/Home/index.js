@@ -66,11 +66,16 @@ const Home = () => {
             stuff and looking for new challenges.
           </p>
           <h2 className={styles.text_section_title}>
-            Select A Section below for More details about my Work
+            Select a Section below for More Details about my Work
           </h2>
         </div>
       </div>
-      <div className={styles.row2}></div>
+      <div className={styles.row2}>
+        <div className={styles.row2_list}>
+          <div></div>
+        </div>
+        <div> Connect with me on LinkedIn for Business Inquiries </div>
+      </div>
     </div>
   )
 }
