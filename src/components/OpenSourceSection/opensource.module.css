@@ -4,3 +4,84 @@
   align-items: center;
   justify-content: center;
 }
+
+.stackoverflow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  padding: 1em;
+}
+
+@media screen and (max-width: 420px) {
+  .stack_pics {
+    display: none;
+  }
+}
+
+.stack_pics {
+  width: 90%;
+  height: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 1px solid black;
+}
+
+.stack_title {
+  padding: 0.6em;
+  border: 1px black solid;
+  border-radius: 2em;
+  background-color: orange;
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: max-content;
+}
+
+.github_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.1em;
+}
+
+.github_logo {
+  padding: 1em;
+  margin: 1em;
+}
+
+.github_title1 {
+  align-self: start;
+  font-size: 1.15em;
+  font-weight: 600;
+  padding: 0.3em;
+}
+
+.github_list {
+  align-self: flex-start;
+}
+
+.github_list > div {
+  padding: 0.5em;
+  margin-left: 0.5em;
+  font-size: 1.08em;
+}
+
+.github_section > div > div > a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.github2_title {
+  align-self: start;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding: 0.3em;
+  margin-left: 2em;
+  margin-bottom: 1em;
+}

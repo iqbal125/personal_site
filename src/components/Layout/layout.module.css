@@ -1,9 +1,8 @@
 main {
   min-height: 80vh;
-  min-width: 80vh;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 768px) {
   .home_layout {
     background-image: url("../../static/illustrations/overlay3.svg");
     background-repeat: no-repeat;
@@ -12,11 +11,8 @@ main {
   }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
   .home_layout {
-    background-image: url("../../static/illustrations/overlay3.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 10em -5em;
+    background-color: var(--primary-color);
   }
 }
