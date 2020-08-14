@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react"
 import styles from "./home.module.css"
 import image1 from "../../static/illustrations/undraw_web_developer_p3e5.svg"
 import image2 from "../../static/illustrations/undraw_code_review_l1q9.svg"
-
+import { Link } from "gatsby"
 import { skills } from "./skills"
 
 const Home = () => {
@@ -72,9 +72,23 @@ const Home = () => {
       </div>
       <div className={styles.row2}>
         <div className={styles.row2_list}>
-          <div></div>
+          <Link to="/projects" className={styles.row2_item}>
+            Projects
+          </Link>
+          <Link to="/courses" className={styles.row2_item}>
+            Courses
+          </Link>
+          <Link to="/opensource" className={styles.row2_item}>
+            Open Source
+          </Link>
+          <Link to="/education" className={styles.row2_item}>
+            Education
+          </Link>
+          <Link to="/articles" className={styles.row2_item}>
+            Articles
+          </Link>
         </div>
-        <div> Connect with me on LinkedIn for Business Inquiries </div>
+        <div>Get IN touch Button </div>
       </div>
     </div>
   )
