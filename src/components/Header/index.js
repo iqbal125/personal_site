@@ -54,6 +54,7 @@ const Header = ({ props }) => {
                   >
                     Open-Source
                   </Link>
+
                   <Link
                     to="/education"
                     className={styles.header_links_mobile}
@@ -79,36 +80,35 @@ const Header = ({ props }) => {
           <div className={styles.desktop_links}>
             <Link
               to="/projects"
-              className={styles.header_links_mobile}
+              className={styles.header_link}
               activeClassName={styles.header_link_active}
             >
               Projects
             </Link>
             <Link
               to="/courses"
-              className={styles.header_links_mobile}
+              className={styles.header_link}
               activeClassName={styles.header_link_active}
             >
               Courses
             </Link>
             <Link
               to="/opensource"
-              className={styles.header_links_mobile}
+              className={styles.header_link}
               activeClassName={styles.header_link_active}
             >
               Open-Source
             </Link>
-
             <Link
               to="/education"
-              className={styles.header_links_mobile}
+              className={styles.header_link}
               activeClassName={styles.header_link_active}
             >
               Education
             </Link>
             <Link
               to="/articles"
-              className={styles.header_links_mobile}
+              className={styles.header_link}
               activeClassName={styles.header_link_active}
             >
               Articles
