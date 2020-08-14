@@ -2,7 +2,7 @@ main {
   min-height: 80vh;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .home_layout {
     background-image: url("../../static/illustrations/overlay3.svg");
     background-repeat: no-repeat;

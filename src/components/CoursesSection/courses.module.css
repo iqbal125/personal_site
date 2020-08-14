@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 769px) {
   .top_row {
     display: flex;
     height: 13em;
@@ -11,7 +11,7 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
   .top_row {
     height: 100%;
     padding-bottom: 0.5em;

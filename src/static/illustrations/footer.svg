@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1, .cls-2, .cls-3 {
-        fill: lightgrey;
+        fill: lightblue;
       }
 
       .cls-1 {
