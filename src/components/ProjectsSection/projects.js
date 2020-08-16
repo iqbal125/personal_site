@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
   {
     title: "jobtrackr",
     description:
@@ -29,6 +29,13 @@ const projects = [
   },
   {
     title: "Concord Site",
+    description: "Built web dev agency site from a blank page",
+    img: "",
+    technologies: "",
+    testimonial: "",
+  },
+  {
+    title: "myRide",
     description: "Built web dev agency site from a blank page",
     img: "",
     technologies: "",
