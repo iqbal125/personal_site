@@ -34,6 +34,7 @@ const Home = () => {
           Hi, I'm Moe. I build high performance web apps with modern
           technologies
         </h1>
+
         <img className={styles.hero_image} src={image1} alt="" />
       </div>
       <div ref={intersectTarget} className={styles.skill_section}>
@@ -88,7 +89,11 @@ const Home = () => {
             Articles
           </Link>
         </div>
-        <div>Get IN touch Button </div>
+        <div className={styles.contact}>
+          <Link to="/" className={styles.contact_button}>
+            Contact
+          </Link>
+        </div>
       </div>
     </div>
   )
