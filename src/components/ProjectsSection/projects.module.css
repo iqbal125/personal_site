@@ -1,5 +1,22 @@
-.projects_card {
+.project_card {
+  display: flex;
   width: 80%;
+  height: 100%;
   margin: 2em;
+  padding: 1em;
   border: 1px black solid;
+}
+
+.text_section {
+}
+
+.image_section {
+  padding: 1em;
+}
+
+.action_section {
+  padding: 1em;
+}
+
+.button_section {
 }

@@ -32,6 +32,8 @@
 
 .title {
   text-align: center;
+  padding: 1em;
+  margin: 1em;
 }
 
 .card {
