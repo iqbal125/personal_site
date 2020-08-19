@@ -1,3 +1,5 @@
+import image1 from "../../static/CoursePics/2199924_ed01_2.jpg"
+
 export const projects = [
   {
     title: "jobtrackr",
