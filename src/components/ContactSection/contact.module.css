@@ -4,14 +4,39 @@
   align-items: center;
 }
 
+h2,
+h3 {
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact_row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.linked {
+  width: 14rem;
+  height: auto;
+  margin: 2rem;
+}
+
+.icon_wrap {
+  margin: 2rem;
+}
+
 .icon {
-  margin: 1rem;
+  width: 12rem;
+  height: auto;
   padding: 0.5rem;
   border-radius: 1rem;
   border: 1px solid black;
 }
 
 .freecode {
+  width: 19rem;
+  height: auto;
   background-color: black;
   padding: 1rem;
   border-radius: 1rem;
