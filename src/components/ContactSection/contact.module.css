@@ -5,14 +5,16 @@
 }
 
 .icon {
-  margin-top: 1rem;
-  padding: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
   border-radius: 1rem;
   border: 1px solid black;
 }
 
-.img2 {
+.freecode {
   background-color: black;
-  padding: 0.3em;
-  margin-top: 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  margin: 1rem;
 }
