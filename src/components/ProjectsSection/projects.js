@@ -38,4 +38,18 @@ export const projects = [
     view_code_url: ``,
     view_app_url: ``,
   },
+  {
+    title: "Analyzing Customer Churn with Logistic Regression",
+    description: `Currently working on this  self driving car platform project as a long time engineer. I’m mainly responsible for the internal app portal which lists out a list of coordinates and tasks for the cars. I mainly worked with React and extensively with Google maps on the frontend. I also worked with node and AWS DynamoDB on the server side. I also built a small demonstration app with React Native and Expo for fun.`,
+    img: "",
+    view_code_url: ``,
+    view_app_url: ``,
+  },
+  {
+    title: "Capstone",
+    description: `Currently working on this  self driving car platform project as a long time engineer. I’m mainly responsible for the internal app portal which lists out a list of coordinates and tasks for the cars. I mainly worked with React and extensively with Google maps on the frontend. I also worked with node and AWS DynamoDB on the server side. I also built a small demonstration app with React Native and Expo for fun.`,
+    img: "",
+    view_code_url: ``,
+    view_app_url: ``,
+  },
 ]
