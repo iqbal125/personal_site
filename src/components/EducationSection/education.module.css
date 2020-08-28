@@ -31,9 +31,9 @@
   padding-bottom: 1.8em;
 }
 
-.degrees > h3 {
-  border-bottom: 1px black solid;
+.school {
   width: max-content;
+  border-bottom: 1px black solid;
 }
 
 .degrees > div {

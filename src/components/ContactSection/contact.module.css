@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-h2,
+.container > h2,
 h3 {
   padding: 1rem;
   text-align: center;

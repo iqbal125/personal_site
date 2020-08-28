@@ -16,7 +16,7 @@ const EducationSection = () => (
         {degrees.map(degree => (
           <div className={styles.degrees}>
             <h2>{degree.degree}</h2>
-            <h3>{degree.school}</h3>
+            <h3 className={styles.school}>{degree.school}</h3>
             <div>{degree.description}</div>
             <div className={styles.learned}>Some Things I learned:</div>
             <div>{degree.learned}</div>
