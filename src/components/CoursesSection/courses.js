@@ -17,7 +17,7 @@ const courses = [
     img: image3,
   },
   {
-    title: "React 2019: React, Redux, React-Router, Hooks and Auth0",
+    title: "React with Redux, React-Router, Hooks and Auth0",
     subtitle: "Learn the complete React-Redux front end system.",
     url: "https://www.udemy.com/course/modern-react/",
     students: "36,000+",
