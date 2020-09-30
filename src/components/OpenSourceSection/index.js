@@ -6,7 +6,7 @@ import OpenSourceCard from "../OpenSourceCard"
 import image1 from "../../static/OpenSource/github-ar21.svg"
 import image2 from "../../static/OpenSource/stackoverflow-ar21.svg"
 
-import image4 from "../../static/OpenSource/top3stack.png"
+import image4 from "../../static/OpenSource/top3stack.PNG"
 
 const OpenSourceSection = () => {
   const githubData = useStaticQuery(query)
