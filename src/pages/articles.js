@@ -1,6 +1,6 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import ArticlesSection from "../components/ArticlesSection"
 
 const Articles = () => (
