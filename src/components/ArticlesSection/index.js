@@ -11,7 +11,7 @@ const ArticlesSection = () => (
       </h2>
       <p>
         All my tutorials are on the First page of Google for their respective
-        search terms and a few are the top search result, Current as of 7/27/20
+        search terms and a few are the top search result, Current as of 1/07/21
       </p>
       <p>
         My tutorials have over 200,000 page views and continue to recieve over
