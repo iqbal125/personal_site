@@ -25,8 +25,10 @@ const ArticlesSection = () => (
         "Let me be the first to congratulate you: you are made freeCodeCamp's
         Top 100 Contributors for 2019 (the fCC 100). Thank you again for
         everything you're doing for the developer community through your
-        writing." - Quincy Larson, CEO/Founder FreeCodeCamp.
+        writing." 
       </p>
+      <p>-Quincy Larson, CEO/Founder FreeCodeCamp.</p>
+      <p>My testing tutorial is the #1 Google search result for "react testing tutorial", even ahead of the offical React testing documentation</p>
     </div>
     <div className={styles.card_row}>
       {articles.map(article => (
